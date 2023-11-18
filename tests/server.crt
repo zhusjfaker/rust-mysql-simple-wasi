@@ -1,0 +1,74 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 9 (0x9)
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=RU, ST=Mowcow, L=Moscow, O=FSI RSL, OU=rust-mysql-simple test ca, CN=rust_mysql_simple/emailAddress=root_email@root.localhost
+        Validity
+            Not Before: Nov 11 13:29:34 2022 GMT
+            Not After : Oct 18 13:29:34 2122 GMT
+        Subject: C=RU, ST=Moscow, O=FSI RSL, OU=rust-mysql-simple test server, CN=rust_mysql_simple
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (2048 bit)
+                Modulus:
+                    00:db:b8:b9:2c:9d:44:bc:c0:b2:e3:26:c7:5e:91:
+                    74:1f:61:4f:d8:4e:e4:02:11:d7:12:04:be:1d:d5:
+                    e5:45:c0:65:16:e6:7a:3d:45:da:9a:ad:2d:37:ad:
+                    16:4e:84:40:70:2a:13:d2:c0:92:a2:cb:b0:11:98:
+                    83:75:f9:47:0c:4f:75:35:8f:9c:d4:8a:ae:a0:e3:
+                    ae:bc:b4:8d:d9:91:b7:14:29:d8:23:86:6a:8d:77:
+                    a1:d3:78:3d:f2:bd:e3:3e:26:93:79:7e:ea:38:1a:
+                    4f:f4:4c:68:19:e5:55:8b:bc:5c:d8:8f:0b:94:ea:
+                    7a:64:70:cd:a4:86:ca:05:a3:8f:6e:6d:64:e0:71:
+                    a9:c5:fb:2d:f4:94:83:cf:3b:c6:1a:c7:f4:2b:df:
+                    53:f4:0a:4c:50:10:5b:9d:45:17:f4:86:2e:2e:52:
+                    2d:b1:58:95:42:46:45:74:8f:c5:67:cd:ad:8e:42:
+                    4c:7c:a3:a4:ce:79:c8:0b:a5:ce:3e:94:d9:37:ee:
+                    fc:18:3d:da:92:74:6e:cc:e4:3a:0b:64:69:9f:d5:
+                    7f:b8:9a:fb:d9:ed:f3:7f:39:84:c0:af:e3:3f:e0:
+                    77:d6:d9:b2:e3:56:62:a5:1b:87:d4:60:7c:c6:88:
+                    53:10:a7:72:95:1c:a4:c9:dd:9a:09:e6:ea:65:2b:
+                    3e:53
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Alternative Name: 
+                IP Address:127.0.0.1, DNS:localhost
+    Signature Algorithm: sha256WithRSAEncryption
+         40:c9:47:4c:15:0e:c2:04:6f:de:9e:7b:67:6a:98:26:a6:14:
+         04:f1:da:ef:0a:9a:f4:14:bb:f2:ce:5d:f4:d8:cd:ed:2c:cb:
+         3e:e0:4b:c5:ca:e3:ad:80:02:eb:73:83:6b:75:e8:cf:86:83:
+         de:7a:6f:61:03:e7:ff:42:9f:79:fb:33:d0:3c:c6:48:56:17:
+         35:c3:22:6c:74:b0:24:85:90:29:07:f2:b7:84:aa:8f:32:1c:
+         46:4f:c9:bd:90:53:57:72:37:30:de:2f:3a:35:e5:71:7f:15:
+         4a:d8:2a:f3:9a:43:48:e5:72:c1:49:96:0e:31:b2:4a:37:c5:
+         28:03:a4:4e:65:78:b1:15:a4:44:9b:dd:5e:16:cb:ac:e8:ad:
+         30:d9:8e:f2:8d:96:5c:a9:d9:26:79:b1:f9:c8:f5:2b:b3:92:
+         79:37:95:20:42:47:bc:4b:17:86:ce:5e:7d:11:a1:18:1e:d8:
+         eb:b1:3b:9a:34:29:d3:ba:02:e7:c0:16:c6:dd:a3:91:ba:10:
+         0e:9c:b2:7e:60:49:cf:aa:93:08:79:d4:dc:7a:d1:75:19:40:
+         0e:29:bd:6e:15:f8:dc:ad:81:e5:4b:b0:ff:2d:04:dc:0b:94:
+         65:9f:5d:69:b2:41:21:e4:63:46:fb:ce:5a:b4:47:23:90:42:
+         07:4e:23:9e
+-----BEGIN CERTIFICATE-----
+MIIDuzCCAqOgAwIBAgIBCTANBgkqhkiG9w0BAQsFADCBqzELMAkGA1UEBhMCUlUx
+DzANBgNVBAgMBk1vd2NvdzEPMA0GA1UEBwwGTW9zY293MRAwDgYDVQQKDAdGU0kg
+UlNMMSIwIAYDVQQLDBlydXN0LW15c3FsLXNpbXBsZSB0ZXN0IGNhMRowGAYDVQQD
+DBFydXN0X215c3FsX3NpbXBsZTEoMCYGCSqGSIb3DQEJARYZcm9vdF9lbWFpbEBy
+b290LmxvY2FsaG9zdDAgFw0yMjExMTExMzI5MzRaGA8yMTIyMTAxODEzMjkzNFow
+dDELMAkGA1UEBhMCUlUxDzANBgNVBAgMBk1vc2NvdzEQMA4GA1UECgwHRlNJIFJT
+TDEmMCQGA1UECwwdcnVzdC1teXNxbC1zaW1wbGUgdGVzdCBzZXJ2ZXIxGjAYBgNV
+BAMMEXJ1c3RfbXlzcWxfc2ltcGxlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEA27i5LJ1EvMCy4ybHXpF0H2FP2E7kAhHXEgS+HdXlRcBlFuZ6PUXamq0t
+N60WToRAcCoT0sCSosuwEZiDdflHDE91NY+c1IquoOOuvLSN2ZG3FCnYI4ZqjXeh
+03g98r3jPiaTeX7qOBpP9ExoGeVVi7xc2I8LlOp6ZHDNpIbKBaOPbm1k4HGpxfst
+9JSDzzvGGsf0K99T9ApMUBBbnUUX9IYuLlItsViVQkZFdI/FZ82tjkJMfKOkznnI
+C6XOPpTZN+78GD3aknRuzOQ6C2Rpn9V/uJr72e3zfzmEwK/jP+B31tmy41ZipRuH
+1GB8xohTEKdylRykyd2aCebqZSs+UwIDAQABox4wHDAaBgNVHREEEzARhwR/AAAB
+gglsb2NhbGhvc3QwDQYJKoZIhvcNAQELBQADggEBAEDJR0wVDsIEb96ee2dqmCam
+FATx2u8KmvQUu/LOXfTYze0syz7gS8XK462AAutzg2t16M+Gg956b2ED5/9Cn3n7
+M9A8xkhWFzXDImx0sCSFkCkH8reEqo8yHEZPyb2QU1dyNzDeLzo15XF/FUrYKvOa
+Q0jlcsFJlg4xsko3xSgDpE5leLEVpESb3V4Wy6zorTDZjvKNllyp2SZ5sfnI9Suz
+knk3lSBCR7xLF4bOXn0RoRge2OuxO5o0KdO6AufAFsbdo5G6EA6csn5gSc+qkwh5
+1Nx60XUZQA4pvW4V+NytgeVLsP8tBNwLlGWfXWmyQSHkY0b7zlq0RyOQQgdOI54=
+-----END CERTIFICATE-----
